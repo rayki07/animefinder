@@ -26,7 +26,7 @@ class AnimeViewModel : ViewModel() {
 
     //Data Paging
     private var currentPage = 1 //<-- Lacak halaman saat ini
-    private var isLastPage = false // <-- Tandai jika sudah mencapai halaman terakhir
+    private var isLastPage = true   // <-- Tandai jika sudah mencapai halaman terakhir (diganti agar tidak crash)
 
     private val BASE_URL = "https://api.jikan.moe/v4/"
 
