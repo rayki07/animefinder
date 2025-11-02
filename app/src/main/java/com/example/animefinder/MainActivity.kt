@@ -153,6 +153,10 @@ class MainActivity : AppCompatActivity(), AnimeAdapter.OnItemClickListener {
         val teamInfo = """
             Tim Pengembang:
             Firman Wahyudi (2255201297)
+            M. Dedi Muchsoleh (2255201317)
+            Anang sukana (2255201085)
+            Andrian nabil muzaki (2255201102)
+
         """.trimIndent()
 
         // Konten Dialog
